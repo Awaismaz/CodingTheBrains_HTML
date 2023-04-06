@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Course Feedback Form</h1>
+
+        <form method="get">
+            <ol>
+                <li><h3>Are you located Inside Islamabad?</h3></li>
+                <label for="inside">Yes</label>
+                <input type="radio" id="inside" name="loc_choice" value="yes">
+                <label for="outside">No</label>
+                <input type="radio" id="outside" name="loc_choice" value="no">
+
+                <li><h3>How do you rate the speed of this course (1-3)?</h3></li>
+                <select name="speed" required>
+                    <option value="Slow">1</option>
+                    <option value="Avg">2</option>
+                    <option value="Fast">3</option>
+                </select>
+                <li>Any Additional Feedback</li>
+                <textarea name="" id="" cols="50" rows="5" required></textarea>
+            </ol>
+            <input type="submit">
+        </form>
+
+    </body>
+
+</html>
